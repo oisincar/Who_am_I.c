@@ -2,6 +2,19 @@
 I'm not sure if this really belongs here, but it sucks to spend a long time on something only to leave it in some random folder so.. Here it is anyway. My first (intentional, at least) attempt at obfuscated c code.
 
 It prints "Oisin" followed by a newline, but the letters making up my second name; Carroll, are the only ones in the source code.
+``` C
+#include "stdio.h"
+main(_){return!((-~_<<_/_<<_/_)/
+  ' ')?main(-~_),printf(
+    "%C",((_*((_*
+      'a'*(_-
+        'r'/6)+(1110*
+          'r'<<_/_)/19)*_-7*(
+            'o'>>_/_)*18*'!'/5)+(
+              'L'<<10))*(_<<_/_)-(415*
+                'l'<<4)/9+_*(_*_*_-3221*
+                  '.'/23+_))/('<'<<_/_)):0;}
+ ```
 
 You're welcome to figure out how it works yourself, or you can read the comment within my attempt at spoiler tag below.
 
